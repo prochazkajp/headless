@@ -45,7 +45,7 @@ class Headless
   MAX_DISPLAY_NUMBER = 10_000
   DEFAULT_DISPLAY_DIMENSIONS = '1280x1024x24'
   # How long should we wait for Xvfb to open a display, before assuming that it is frozen (in seconds)
-  XVFB_LAUNCH_TIMEOUT = 10
+  XVFB_LAUNCH_TIMEOUT = 120
 
   class Exception < RuntimeError
   end
